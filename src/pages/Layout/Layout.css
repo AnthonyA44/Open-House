@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  height: 200px;
+  background-color: black;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.menu {
+  margin-right: 20px;
+  margin-top: 20px;
+}
