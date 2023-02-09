@@ -2,6 +2,20 @@
   height: 80px;
   display: flex;
   justify-content: space-between;
+  margin: 0 20px 0 30px;
+}
+
+.heading {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-before-active {
+  margin: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: 1px solid blue;
+  border-radius: 4px;
 }
 
 .nav-before {
@@ -51,6 +65,10 @@
   padding-left: 10px;
 }
 
+.form-heading {
+  margin-top: 40px;
+}
+
 .form-input {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -80,4 +98,10 @@
 
 .link-style {
   color: black;
+}
+
+.menu-before {
+  margin-right: 10px;
+  margin-top: 6px;
+  float: right;
 }

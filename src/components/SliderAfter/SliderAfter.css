@@ -26,3 +26,8 @@
   background-color: green;
   border-radius: 4px;
 }
+
+/* .carousel-control-next-icon:focus, .carousel-control-next-icon:hover, .carousel-control-prev-icon:focus, .carousel-control-prev-icon:hover {
+  border: 4px solid blue;
+  filter: none !important;
+} */

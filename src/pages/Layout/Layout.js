@@ -1,14 +1,14 @@
 import { Outlet } from "react-router-dom";
 import "./Layout.css";
-import dog from "../../assets/dog.svg";
+// import dog from "../../assets/dog.svg";
 
 const Layout = () => {
   return (
     <>
       {/* header */}
-      <div class="header">
+      {/* <div class="header">
         <img class="logo" src={dog} alt="doggo"></img>
-      </div>
+      </div> */}
       {/* <nav>
         <ul class="nav">
           <li>
