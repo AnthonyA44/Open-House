@@ -23,7 +23,7 @@ const MenuAfter = ({
   options,
   isMulti,
   // isSearchable,
-  onChange
+  onChange,
 }) => {
   const [showMenu, setShowMenu] = useState(false);
   const [selectedValue, setSelectedValue] = useState(isMulti ? [] : null);
@@ -130,12 +130,19 @@ const MenuAfter = ({
 
   return (
     <div className="dropdown-container">
-      <div ref={inputRef} onClick={handleInputClick} onKeyDown={(event) => 
-        {
-          if (event.key === 'Enter') {
-            handleInputClick()
+      <div
+        aria-expanded="false"
+        ref={inputRef}
+        role="button"
+        tabIndex={0}
+        onClick={handleInputClick}
+        onKeyDown={(event) => {
+          if (event.key === "Enter") {
+            handleInputClick();
           }
-        }} className="dropdown-input">
+        }}
+        className="dropdown-input"
+      >
         <div className="dropdown-selected-value">{getDisplay()}</div>
         <div className="dropdown-tools">
           <div className="dropdown-tool">
@@ -149,13 +156,13 @@ const MenuAfter = ({
             <div
               onClick={() => onItemClick(option)}
               onKeyDown={(event) => {
-                if (event.key === 'Enter') {
-                  onItemClick(option)
+                if (event.key === "Enter") {
+                  onItemClick(option);
                 }
               }}
               key={option.value}
               className={`dropdown-item ${isSelected(option) && "selected"}`}
-              tabIndex={option.index}
+              tabIndex={0}
             >
               {option.label}
             </div>

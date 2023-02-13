@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import T from "../../txt.json";
 import SliderBefore from "../../components/SliderBefore/SliderBefore";
 import MenuBefore from "../../components/MenuBefore/MenuBefore";
-import dog from "../../assets/dog.svg";
+import deloitteIcon from "../../assets/Deloitte-Digital.jpeg";
 
 const Home = () => {
   let exampleText = T.exampleText;
@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <>
       <div class="header">
-        <img class="logo" src={dog} alt="doggo"></img>
+        <img class="logo" src={deloitteIcon} alt="doggo"></img>
         <nav>
           <ul class="nav">
             <li>

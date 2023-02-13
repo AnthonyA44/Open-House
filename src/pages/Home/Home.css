@@ -8,14 +8,16 @@
 .heading {
   margin-left: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .nav-before-active {
   margin: 2px;
   padding-top: 4px;
   padding-bottom: 4px;
-  border: 1px solid blue;
   border-radius: 4px;
+  border: 1px solid green;
+  background-color: #86BC25;
 }
 
 .nav-before {
