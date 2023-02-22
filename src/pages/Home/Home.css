@@ -20,6 +20,10 @@
   background-color: #86BC25;
 }
 
+.nav-before-active:hover {
+  background-color: lightgray;
+}
+
 .nav-before {
   margin: 2px;
   padding-top: 4px;
@@ -27,6 +31,10 @@
   border: 1px solid #d3d3d3;
   border-radius: 4px;
 }
+.nav-before:hover {
+  background-color: lightgray;
+}
+
 
 .nav {
   margin-left: 20px;

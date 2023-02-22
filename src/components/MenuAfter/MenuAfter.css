@@ -6,6 +6,10 @@
   width: 160px;
 }
 
+.dropdown-container:hover {
+  background: lightgrey;
+}
+
 .dropdown-input {
   padding: 5px;
   display: flex;

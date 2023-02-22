@@ -1,12 +1,12 @@
 import "./After.css";
 import { Link } from "react-router-dom";
-import T from "../../txt.json";
+// import T from "../../txt.json";
 import SliderAfter from "../../components/SliderAfter/SliderAfter";
 import MenuAfter from "../../components/MenuAfter/MenuAfter";
 import deloitteIcon from "../../assets/Deloitte-Digital.jpeg";
 
 const After = () => {
-  let exampleText = T.exampleText;
+  // let exampleText = T.exampleText;
   const linkStyle = {
     margin: "1rem",
     textDecoration: "none",
@@ -50,7 +50,16 @@ const After = () => {
         <div class="layout-after">
           <div class="section-after">
             <p>
-              {exampleText} Learn more at
+              Accessible web pages refer to web pages that can be easily used by
+              everyone, including those with disabilities. This includes
+              features such as high contrast mode, large text options, and
+              alternative text descriptions for images. <br /> <br /> Accessible
+              web pages also use proper coding techniques to ensure
+              compatibility with assistive technologies such as screen readers.{" "}
+              <br /> <br />
+              Making web pages accessible not only benefits individuals with
+              disabilities, but also makes the website easier to use for
+              everyone, improving the user experience for all. Learn more at
               <a
                 class="link-text"
                 href="https://www.w3.org/WAI/standards-guidelines/wcag/"

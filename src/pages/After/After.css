@@ -56,12 +56,16 @@
   line-height: 400px;
   padding-left: 50px;
   padding-right: 50px;
+  overflow: auto;
 }
 
 .section-after p {
   display: inline-block;
   line-height: 1.5;
   vertical-align: middle;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .link-text {
