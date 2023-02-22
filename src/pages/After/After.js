@@ -31,14 +31,14 @@ const After = () => {
             <li>
               <div class="nav-after">
                 <Link tabIndex={0} style={linkStyle} to="/">
-                  Inaccessible Page
+                  Inaccessible Experience
                 </Link>
               </div>
             </li>
             <li>
               <div class="nav-after-active">
                 <Link tabIndex={0} style={linkStyle} to="/after">
-                  Accessible Page
+                  Accessible Experience
                 </Link>
               </div>
             </li>
@@ -46,7 +46,7 @@ const After = () => {
         </nav>
       </div>
       <div class="container">
-        <h1 class="heading">Accessible Page</h1>
+        <h1 class="heading"> Accessible Experience</h1>
         <div class="layout-after">
           <div class="section-after">
             <p>

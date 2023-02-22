@@ -32,14 +32,14 @@ const Home = () => {
             <li>
               <div class="nav-before-active">
                 <Link style={linkStyle} to="/">
-                  Inaccessible Page
+                  Inaccessible Experience
                 </Link>
               </div>
             </li>
             <li>
               <div class="nav-before">
                 <Link style={linkStyle} to="/after">
-                  Accessible Page
+                  Accessible Experience
                 </Link>
               </div>
             </li>
@@ -55,7 +55,7 @@ const Home = () => {
         </div> */}
       </div>
       <div class="container">
-        <h1 class="heading">Inaccessible Page</h1>
+        <h1 class="heading">Inaccessible Experience</h1>
         <div class="layout1">
           <div class="section1">
             <p>
